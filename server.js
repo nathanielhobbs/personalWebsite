@@ -8,6 +8,9 @@ var port = process.env.PORT || 3000;
 //set view engine to ejs (prefer this over Jade)
 app.set('view engine', 'ejs')
 
+//Serve static content for the app from the "public" directory in the application directory
+app.use(express.static(__dirname + '/public'));
+
 // index page
 app.get('/', function(req,res) {
    res.render('pages/index')
