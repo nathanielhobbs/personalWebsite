@@ -7,8 +7,20 @@ p {
   font: 400 16px/1.6 'Muli', Verdana, Helvetica, sans-serif;
 }
 
+a {
+  font: 400 16px/1.6 'Muli', Verdana, Helvetica, sans-serif;
+}
+
+td {
+  font: 400 16px/1.6 'Muli', Verdana, Helvetica, sans-serif;
+}
+
 body {
   background: url(/img/stardust/stardust.png)
+}
+
+.paddingBetweenCols td{
+  padding: 0 15px 0 15px
 }
 
 div.container-fluid{
