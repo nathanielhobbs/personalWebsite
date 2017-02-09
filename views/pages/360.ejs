@@ -4,7 +4,8 @@
 <html lang="en">
 <head>
     <% include ../partials/head %>
-    <script src="//povdocs.github.io/webvr-starter-kit/build/vr.js"></script>
+    <!-- <script src="//povdocs.github.io/webvr-starter-kit/build/vr.js"></script> -->
+    <script src="//aframe.io/releases/0.4.0/aframe.min.js"></script>
 </head>
 <body class="container">
 
@@ -15,9 +16,16 @@
     <main>
         <div class="jumbotron">
             <h1>My brother and I in Iceland</h1>
+
+            <a-scene>
+                <a-sky src="../../img/360/Iceland_water.jpg"></a-sky>
+            </a-scene>
+
+            <!--
             <script type="text/javascript">
-                VR.panorama('"../../img/360/Iceland_water.jpg"');
+                VR.panorama("../../img/360/Iceland_water.jpg"); 
             </script>
+            -->
         </div>
     </main>
 
