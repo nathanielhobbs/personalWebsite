@@ -27,6 +27,11 @@ app.get('/contact', function(req, res) {
    res.render('pages/contact')
 })
 
+// 360 page
+app.get('/360', function(req, res) {
+	res.render('pages/360')
+})
+
 // garden page
 app.get('/garden', function(req, res) {
    res.render('pages/garden')

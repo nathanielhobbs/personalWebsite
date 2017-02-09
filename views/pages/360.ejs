@@ -1,0 +1,29 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+    <script src="//povdocs.github.io/webvr-starter-kit/build/vr.js"></script>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>My brother and I in Iceland</h1>
+            <script type="text/javascript">
+                VR.panorama('"../../img/360/Iceland_water.jpg"');
+            </script>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>
+</html>
