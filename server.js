@@ -32,6 +32,10 @@ app.get('/360', function(req, res) {
 	res.render('pages/360')
 })
 
+app.get('/360/:picture', function(req,res) {
+	res.render('pages/360/'+req.params[0])
+})
+
 // garden page
 app.get('/garden', function(req, res) {
    res.render('pages/garden')
