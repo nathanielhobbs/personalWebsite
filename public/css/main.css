@@ -1,6 +1,10 @@
-h1 {
+.jumbotron h1 {
   font: 400 60px/1.5 'Playfair Display', Georgia, serif;
   text-shadow: 5px 5px 3px #ccc
+}
+
+.jumbotron p {
+  font: 400 16px/1.6 'Muli', Verdana, Helvetica, sans-serif;
 }
  
 p {
