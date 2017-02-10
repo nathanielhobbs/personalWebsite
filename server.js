@@ -32,8 +32,13 @@ app.get('/360', function(req, res) {
 	res.render('pages/360')
 })
 
+// for individual 360 pictures
 app.get('/360/:picture', function(req,res) {
 	res.render('pages/360/'+req.params.picture)
+})
+
+app.get('/360_for_family', function(req,res) {
+	res.render('pages/360_for_family')
 })
 
 // garden page
