@@ -33,12 +33,17 @@ app.get('/360', function(req, res) {
 })
 
 app.get('/360/:picture', function(req,res) {
-	res.render('pages/360/'+req.params[0])
+	res.render('pages/360/'+req.params.picture)
 })
 
 // garden page
 app.get('/garden', function(req, res) {
    res.render('pages/garden')
+})
+
+// garden about page
+app.get('/garden/garden_about', function(req, res) {
+   res.render('pages/garden_about')
 })
 
 app.listen(port)
