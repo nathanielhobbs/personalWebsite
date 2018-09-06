@@ -61,5 +61,10 @@ app.get('/garden/garden_about', function(req, res) {
    res.render('pages/garden_about')
 })
 
+// study page
+app.get('/study', function(req, res) {
+   res.render('pages/study')
+})
+
 app.listen(port)
 console.log('Server started. Listening on port', port)
