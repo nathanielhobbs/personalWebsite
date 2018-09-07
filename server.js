@@ -63,7 +63,17 @@ app.get('/garden/garden_about', function(req, res) {
 
 // study page
 app.get('/study', function(req, res) {
-   res.render('pages/study')
+   res.render('pages/study_cvx_opt')
+})
+
+// study page
+app.get('/study_cvx_opt', function(req, res) {
+   res.render('pages/study_cvx_opt')
+})
+
+// study page
+app.get('/study_nn', function(req, res) {
+   res.render('pages/study_nn')
 })
 
 app.listen(port)
